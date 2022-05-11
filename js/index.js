@@ -54,7 +54,7 @@ function onlyChangedOneLetter(newWord, lastWord) {
   //är antalet ändringar mer än 1 är boolean falsk = inkorrekt gissning
   if (changes > 1) {
     return false;
-    //annars sann och korrekt
+  //annars sann och korrekt
   } else {
     return true;
   }
